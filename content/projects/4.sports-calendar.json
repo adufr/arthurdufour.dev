@@ -1,6 +1,6 @@
 {
   "name": "SportsCalendar",
-  "url": "https://sportscalendar.ap",
+  "url": "https://sportscalendar.app",
   "description": "Generate iCal links for sport events",
   "thumbnail": "/projects/sportscalendar.png",
   "status": "WIP",
