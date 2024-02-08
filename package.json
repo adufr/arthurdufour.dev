@@ -1,6 +1,7 @@
 {
   "name": "arthurdufour.dev",
   "type": "module",
+  "version": "1.0.0",
   "private": true,
   "description": "My personal website (porfolio, blog, etc.)",
   "scripts": {
