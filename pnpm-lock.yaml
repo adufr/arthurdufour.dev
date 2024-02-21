@@ -44,8 +44,8 @@ devDependencies:
     specifier: ^0.2.4
     version: 0.2.4
   '@vueuse/core':
-    specifier: ^10.7.2
-    version: 10.7.2(vue@3.4.16)
+    specifier: ^10.8.0
+    version: 10.8.0(vue@3.4.16)
   '@vueuse/nuxt':
     specifier: ^10.8.0
     version: 10.8.0(nuxt@3.10.1)(vue@3.4.16)
@@ -1473,7 +1473,7 @@ packages:
     dependencies:
       '@nuxt/kit': 3.10.1
       '@nuxtjs/mdc': 0.5.0
-      '@vueuse/core': 10.7.2(vue@3.4.16)
+      '@vueuse/core': 10.8.0(vue@3.4.16)
       '@vueuse/head': 2.0.0(vue@3.4.16)
       '@vueuse/nuxt': 10.8.0(nuxt@3.10.1)(vue@3.4.16)
       consola: 3.2.3
@@ -1772,7 +1772,7 @@ packages:
       '@tailwindcss/container-queries': 0.1.1(tailwindcss@3.4.1)
       '@tailwindcss/forms': 0.5.7(tailwindcss@3.4.1)
       '@tailwindcss/typography': 0.5.10(tailwindcss@3.4.1)
-      '@vueuse/core': 10.7.2(vue@3.4.16)
+      '@vueuse/core': 10.8.0(vue@3.4.16)
       '@vueuse/integrations': 10.7.2(fuse.js@6.6.2)(vue@3.4.16)
       '@vueuse/math': 10.7.2(vue@3.4.16)
       defu: 6.1.4
@@ -3079,6 +3079,7 @@ packages:
     transitivePeerDependencies:
       - '@vue/composition-api'
       - vue
+    dev: false
 
   /@vueuse/core@10.8.0(vue@3.4.16):
     resolution: {integrity: sha512-G9Ok9fjx10TkNIPn8V1dJmK1NcdJCtYmDRyYiTMUyJ1p0Tywc1zmOoCQ2xhHYyz8ULBU4KjIJQ9n+Lrty74iVw==}
@@ -3090,7 +3091,6 @@ packages:
     transitivePeerDependencies:
       - '@vue/composition-api'
       - vue
-    dev: true
 
   /@vueuse/head@2.0.0(vue@3.4.16):
     resolution: {integrity: sha512-ykdOxTGs95xjD4WXE4na/umxZea2Itl0GWBILas+O4oqS7eXIods38INvk3XkJKjqMdWPcpCyLX/DioLQxU1KA==}
@@ -3166,10 +3166,10 @@ packages:
 
   /@vueuse/metadata@10.7.2:
     resolution: {integrity: sha512-kCWPb4J2KGrwLtn1eJwaJD742u1k5h6v/St5wFe8Quih90+k2a0JP8BS4Zp34XUuJqS2AxFYMb1wjUL8HfhWsQ==}
+    dev: false
 
   /@vueuse/metadata@10.8.0:
     resolution: {integrity: sha512-Nim/Vle5OgXcXhAvGOgkJQXB1Yb+Kq/fMbLuv3YYDYbiQrwr39ljuD4k9fPeq4yUyokYRo2RaNQmbbIMWB/9+w==}
-    dev: true
 
   /@vueuse/nuxt@10.8.0(nuxt@3.10.1)(vue@3.4.16):
     resolution: {integrity: sha512-7b1S52exryoJoAgwH/4GRjtCjr7j8Fc5/H/orAt1DxZuiOGYEOCo7zaoM6twiURSzyiBiUemdvaRJqYzV37W6A==}
@@ -3196,6 +3196,7 @@ packages:
     transitivePeerDependencies:
       - '@vue/composition-api'
       - vue
+    dev: false
 
   /@vueuse/shared@10.8.0(vue@3.4.16):
     resolution: {integrity: sha512-dUdy6zwHhULGxmr9YUg8e+EnB39gcM4Fe2oKBSrh3cOsV30JcMPtsyuspgFCUo5xxFNaeMf/W2yyKfST7Bg8oQ==}
@@ -3204,7 +3205,6 @@ packages:
     transitivePeerDependencies:
       - '@vue/composition-api'
       - vue
-    dev: true
 
   /@webassemblyjs/ast@1.11.6:
     resolution: {integrity: sha512-IN1xI7PwOvLPgjcf180gC1bqn3q/QaOCwYUahIOhbYUu8KA/3tw2RT/T0Gidi1l7Hhj5D/INhJxiICObqpMu4Q==}
