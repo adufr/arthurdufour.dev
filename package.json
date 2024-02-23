@@ -14,7 +14,7 @@
     "lint:fix": "eslint . --fix"
   },
   "dependencies": {
-    "@iconify-json/lucide": "1.1.167",
+    "@iconify-json/lucide": "1.1.168",
     "@nuxt/image": "1.3.0",
     "@nuxt/ui": "2.14.0",
     "vue-use-fixed-header": "^2.0.3"
