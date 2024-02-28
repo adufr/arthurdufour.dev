@@ -29,8 +29,8 @@ devDependencies:
     specifier: 1.0.8
     version: 1.0.8(nuxt@3.10.3)(vite@5.1.4)
   '@nuxthq/studio':
-    specifier: 1.0.11
-    version: 1.0.11
+    specifier: 1.0.12
+    version: 1.0.12
   '@nuxtjs/eslint-module':
     specifier: ^4.1.0
     version: 4.1.0(eslint@8.57.0)(vite@5.1.4)(webpack@5.90.1)
@@ -1863,10 +1863,10 @@ packages:
       - vti
       - vue-tsc
 
-  /@nuxthq/studio@1.0.11:
-    resolution: {integrity: sha512-MLrs/qvGqaSp+q3pezBTcRfkTHOJs9+MP0IIzSPwVCl4mncu4/1jyVLF7XjcjV4V91NFXJ/cjCNBQQWRsU7uLg==}
+  /@nuxthq/studio@1.0.12:
+    resolution: {integrity: sha512-3Ak5reS5B6onFg41dgB8a5vcZRXeoSIlReHDiWghz7gMjlpE0cGSAdu/xYcOZvHWgjOKVhPAQ6zNwUbUvBlU1w==}
     dependencies:
-      '@nuxt/kit': 3.10.1
+      '@nuxt/kit': 3.10.3
       defu: 6.1.4
       git-url-parse: 14.0.0
       nuxt-component-meta: 0.6.3
@@ -2999,6 +2999,7 @@ packages:
       entities: 4.5.0
       estree-walker: 2.0.2
       source-map-js: 1.0.2
+    dev: true
 
   /@vue/compiler-core@3.4.19:
     resolution: {integrity: sha512-gj81785z0JNzRcU0Mq98E56e4ltO1yf8k5PQ+tV/7YHnbZkrM0fyFyuttnN8ngJZjbpofWE/m4qjKBiLl8Ju4w==}
@@ -3008,12 +3009,6 @@ packages:
       entities: 4.5.0
       estree-walker: 2.0.2
       source-map-js: 1.0.2
-
-  /@vue/compiler-dom@3.4.16:
-    resolution: {integrity: sha512-lvs9ankPzLEuIC5aB72ntLUcwVGmgY7ASkXDRvo9+lUMWOOCqnAmM/64AZPeVAZ4EnjocCE40OUN+ZboNe4ygA==}
-    dependencies:
-      '@vue/compiler-core': 3.4.16
-      '@vue/shared': 3.4.16
 
   /@vue/compiler-dom@3.4.19:
     resolution: {integrity: sha512-vm6+cogWrshjqEHTzIDCp72DKtea8Ry/QVpQRYoyTIg9k7QZDX6D8+HGURjtmatfgM8xgCFtJJaOlCaRYRK3QA==}
@@ -3092,6 +3087,7 @@ packages:
 
   /@vue/shared@3.4.16:
     resolution: {integrity: sha512-HKCjeaxR+R95dCw1BDaytcHdlzZj9lxj7RlFnxWtcKq670t8oSeMsbPlkzkNc2V6IUzHaMtUxdBcdREAhb+7NA==}
+    dev: true
 
   /@vue/shared@3.4.19:
     resolution: {integrity: sha512-/KliRRHMF6LoiThEy+4c1Z4KB/gbPrGjWwJR+crg2otgrf/egKzRaCPvJ51S5oetgsgXLfc4Rm5ZgrKHZrtMSw==}
@@ -9802,7 +9798,7 @@ packages:
       '@babel/plugin-syntax-import-meta': 7.10.4(@babel/core@7.23.9)
       '@babel/plugin-transform-typescript': 7.23.6(@babel/core@7.23.9)
       '@vue/babel-plugin-jsx': 1.2.1(@babel/core@7.23.9)
-      '@vue/compiler-dom': 3.4.16
+      '@vue/compiler-dom': 3.4.19
       kolorist: 1.8.0
       magic-string: 0.30.7
       vite: 5.1.4
