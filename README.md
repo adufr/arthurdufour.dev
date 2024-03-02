@@ -14,5 +14,4 @@ This is my personal portfolio website, made with Nuxt (using [Zooper](https://zo
 
 ## Todo
 
-1. Integrate Plausible for privacy-friendly analytics
-2. Create a "uses" page (list of applications / hardware I use and enjoy)
+1. Create a "uses" page (list of applications / hardware I use and enjoy)
