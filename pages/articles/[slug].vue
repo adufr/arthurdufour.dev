@@ -1,9 +1,9 @@
 <script lang="ts" setup>
-const route = useRoute()
-const { slug } = route.params
+// const route = useRoute()
+// const { slug } = route.params
 
 useSeoMeta({
-  ogImage: `https://fayazahmed.com/articles/${slug}.png`,
+  // ogImage: `https://fayazahmed.com/articles/${slug}.png`,
   twitterCard: 'summary_large_image',
   author: 'Arthur Dufour',
 })
