@@ -4,7 +4,14 @@ import { useFixedHeader } from 'vue-use-fixed-header'
 const headerRef = ref(null)
 const { styles } = useFixedHeader(headerRef)
 
-const items = [
+interface Item {
+  name: string
+  path: string
+  icon: string
+  external?: boolean
+}
+
+const items: Item[] = [
   {
     name: 'Home',
     path: '/',
@@ -24,6 +31,7 @@ const items = [
     name: 'Github',
     path: 'https://github.com/adufr',
     icon: 'mdi:github',
+    external: true,
   },
 ]
 </script>
@@ -41,6 +49,8 @@ const items = [
               :to="item.path"
               class="relative flex items-center justify-center px-3 py-4 transition hover:text-red-500 dark:hover:text-red-400"
               active-class="text-red-600 dark:text-red-400"
+              :external="item.external"
+              :target="item.external ? '_blank' : ''"
             >
               <Icon aria-hidden="true" :name="item.icon" class="z-10 size-5" />
 
