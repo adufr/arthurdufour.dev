@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@iconify-json/lucide':
-    specifier: 1.1.172
-    version: 1.1.172
+    specifier: 1.1.173
+    version: 1.1.173
   '@nuxt/image':
     specifier: 1.4.0
     version: 1.4.0
@@ -1030,8 +1030,8 @@ packages:
       '@iconify/types': 2.0.0
     dev: false
 
-  /@iconify-json/lucide@1.1.172:
-    resolution: {integrity: sha512-D7O4Z/Sx9xYVtkx5EcNpe6B5btZwEH9Fxf2KQh9nwFgOGGXdTuOB2Sh0AHfR6K3eCQ63Uhvz/4MzaIyUoixPQw==}
+  /@iconify-json/lucide@1.1.173:
+    resolution: {integrity: sha512-ddmsd9pI0m4Edl2R8RbznPXU75H18yvaUR/HidzP04LzV+saL8/sXYI30BRY6UK+VrpfOKZR/U+6Z9miePDW3A==}
     dependencies:
       '@iconify/types': 2.0.0
     dev: false
