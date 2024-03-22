@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@iconify-json/lucide':
-    specifier: 1.1.176
-    version: 1.1.176
+    specifier: 1.1.177
+    version: 1.1.177
   '@nuxt/image':
     specifier: 1.4.0
     version: 1.4.0
@@ -237,7 +237,7 @@ packages:
     resolution: {integrity: sha512-5FcvN1JHw2sHJChotgx8Ek0lyuh4kCKelgMTTqhYJJtloNvUfpAFMeNQUtdlIaktwrSV9LtCdqwk48wL2wBacQ==}
     engines: {node: '>=6.9.0'}
     dependencies:
-      '@ampproject/remapping': 2.2.1
+      '@ampproject/remapping': 2.3.0
       '@babel/code-frame': 7.24.2
       '@babel/generator': 7.24.1
       '@babel/helper-compilation-targets': 7.23.6
@@ -539,15 +539,6 @@ packages:
       '@babel/core': ^7.0.0-0
     dependencies:
       '@babel/core': 7.23.9
-      '@babel/helper-plugin-utils': 7.22.5
-
-  /@babel/plugin-syntax-jsx@7.23.3(@babel/core@7.24.3):
-    resolution: {integrity: sha512-EB2MELswq55OHUoRZLGg/zC7QWUKfNLpE57m/S2yr1uEneIgsTgrSzXP3NXEsMkVn76OlaVVnzN+ugObuYGwhg==}
-    engines: {node: '>=6.9.0'}
-    peerDependencies:
-      '@babel/core': ^7.0.0-0
-    dependencies:
-      '@babel/core': 7.24.3
       '@babel/helper-plugin-utils': 7.22.5
 
   /@babel/plugin-syntax-jsx@7.24.1(@babel/core@7.24.3):
@@ -1271,8 +1262,8 @@ packages:
       '@iconify/types': 2.0.0
     dev: false
 
-  /@iconify-json/lucide@1.1.176:
-    resolution: {integrity: sha512-qO2TsQ+9WhfJgdGaW5J1Is2OxpMjcx1C1E86caWftKXv2B6APSSlw4A8mXn/aOJLhYiv4adjYKNha71TD+FE/Q==}
+  /@iconify-json/lucide@1.1.177:
+    resolution: {integrity: sha512-SQbHei3LEBDR+7O8odUWWWncIovVfJ1oulG9+MaLysNU/7BwjsEuALnGPH3mIYS57mZ2MlLvPr5yj3TILTLU/Q==}
     dependencies:
       '@iconify/types': 2.0.0
     dev: false
@@ -3357,7 +3348,7 @@ packages:
     resolution: {integrity: sha512-IVU/ZozKTFhP9z1I9ZgSKiEx3WfDFDNXbTYTqwNW2SHPmAj5Qf99kn6o7br7Kd1dnxSjKFXOmNfNGkW9AMDraA==}
     dependencies:
       '@babel/core': 7.24.3
-      '@babel/plugin-syntax-jsx': 7.23.3(@babel/core@7.24.3)
+      '@babel/plugin-syntax-jsx': 7.24.1(@babel/core@7.24.3)
       '@babel/preset-typescript': 7.24.1(@babel/core@7.24.3)
       '@unocss/core': 0.58.6
     transitivePeerDependencies:
@@ -10299,7 +10290,7 @@ packages:
       uglify-js:
         optional: true
     dependencies:
-      '@jridgewell/trace-mapping': 0.3.22
+      '@jridgewell/trace-mapping': 0.3.25
       jest-worker: 27.5.1
       schema-utils: 3.3.0
       serialize-javascript: 6.0.2
