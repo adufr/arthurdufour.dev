@@ -47,4 +47,6 @@ export default defineNuxtConfig({
     domain: 'arthurdufour.dev',
     apiHost: 'https://plausible.arthurdufour.dev',
   },
+
+  compatibilityDate: '2024-11-13',
 })
