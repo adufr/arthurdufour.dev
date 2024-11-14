@@ -11,6 +11,7 @@ export default defineNuxtConfig({
     '@nuxt/content',
     '@nuxthq/studio',
     '@vueuse/nuxt',
+    '@nuxthub/core',
   ],
 
   ui: {
@@ -46,6 +47,10 @@ export default defineNuxtConfig({
   plausible: {
     domain: 'arthurdufour.dev',
     apiHost: 'https://plausible.arthurdufour.dev',
+  },
+
+  hub: {
+    blob: true,
   },
 
   compatibilityDate: '2024-11-13',
