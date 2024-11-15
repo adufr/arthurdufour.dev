@@ -1,19 +1,19 @@
 <script lang="ts" setup>
 const links = [
   {
-    name: 'Twitter',
-    url: 'https://twitter.com/adufr_',
-    icon: 'mdi:twitter',
+    name: 'Bluesky',
+    url: 'https://bsky.app/profile/arthurdufour.dev',
+    icon: 'logos:bluesky',
   },
   {
     name: 'GitHub',
     url: 'https://github.com/adufr',
-    icon: 'mdi:github',
+    icon: 'logos:github-icon',
   },
   {
     name: 'Linkedin',
     url: 'https://www.linkedin.com/in/arthur-dufour/',
-    icon: 'mdi:linkedin',
+    icon: 'logos:linkedin-icon',
   },
 ]
 </script>
