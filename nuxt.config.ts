@@ -12,6 +12,7 @@ export default defineNuxtConfig({
     '@nuxthq/studio',
     '@vueuse/nuxt',
     '@nuxthub/core',
+    '@nuxt/eslint',
   ],
 
   ui: {
@@ -41,6 +42,12 @@ export default defineNuxtConfig({
     display: 'swap',
     families: {
       Inter: [400, 500, 600, 700, 800, 900],
+    },
+  },
+
+  eslint: {
+    config: {
+      standalone: false,
     },
   },
 
