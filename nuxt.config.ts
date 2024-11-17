@@ -16,7 +16,10 @@ export default defineNuxtConfig({
   ],
 
   ui: {
-    icons: ['heroicons', 'lucide'],
+  },
+
+  icon: {
+    componentName: 'NuxtIcon',
   },
 
   app: {
