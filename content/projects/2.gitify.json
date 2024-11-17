@@ -1,9 +1,0 @@
-{
-  "name": "Gitify",
-  "url": "https://gitify.io",
-  "description": "Your GitHub notifications on your menu bar.",
-  "thumbnail": "/projects/gitify.png",
-  "status": "Active",
-  "opensource": true,
-  "author": false
-}

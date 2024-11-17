@@ -1,0 +1,10 @@
+---
+name: "Hybri"
+url: "https://hybri.app"
+description: "Track who's in the office or in remote in your team(s)"
+thumbnail: "/projects/hybri.png"
+status: "Dead"
+author: true
+---
+
+Todo

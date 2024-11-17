@@ -1,9 +1,0 @@
-{
-  "name": "Spicetify extensions",
-  "url": "https://github.com/adufr/spicetify-extensions",
-  "description": "Extensions for Spicetify (CLI tool to customize Spotify client)",
-  "thumbnail": "/projects/spicetify-extensions.png",
-  "status": "Active",
-  "opensource": true,
-  "author": true
-}
