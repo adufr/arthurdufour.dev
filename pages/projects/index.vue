@@ -15,14 +15,14 @@ const { data: projects } = await useAsyncData('projects-all', () =>
     <AppHeader
       class="mb-12"
       title="Projects"
-      :description="description"
+      :description
     />
 
     <div class="space-y-4">
       <AppProjectCard
         v-for="(project, id) in projects"
         :key="id"
-        :project="project"
+        :project
       />
     </div>
   </main>
