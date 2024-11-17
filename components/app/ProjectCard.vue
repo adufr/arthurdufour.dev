@@ -13,7 +13,7 @@ defineProps({
     :to="project._path"
   >
     <div class="max-w-md">
-      <div class="flex gap-2">
+      <div class="flex items-center gap-2">
         <h3 class="text-sm font-medium group-hover:text-red-600">
           {{ project.name }}
         </h3>
@@ -25,6 +25,13 @@ defineProps({
         >
           {{ project.author ? 'Author' : 'Contributor' }}
         </UBadge>
+
+        <UTooltip v-if="project.github" text="This project is open-source!">
+          <UIcon
+            name="logos:github-icon"
+            class="size-3"
+          />
+        </UTooltip>
       </div>
 
       <p class="text-sm text-gray-400">
