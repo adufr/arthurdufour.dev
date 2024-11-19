@@ -28,6 +28,21 @@ useSeoMeta({
         </div>
 
         <ContentRenderer :value="doc" />
+
+        <UCarousel
+          v-slot="{ item }"
+          arrows
+          :ui="{ item: 'basis-full' }"
+          :items="doc.screenshots"
+          class="-mt-6 rounded-lg overflow-hidden"
+        >
+          <img
+            :src="item"
+            alt="Screenshot of the project"
+            draggable="false"
+            class="w-full cursor-pointer"
+          >
+        </UCarousel>
       </ContentDoc>
     </div>
   </main>
