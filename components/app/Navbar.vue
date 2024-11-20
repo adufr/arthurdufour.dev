@@ -52,7 +52,7 @@ const items: Item[] = [
               :external="item.external"
               :target="item.external ? '_blank' : ''"
             >
-              <Icon aria-hidden="true" :name="item.icon" class="z-10 size-5" />
+              <NuxtIcon aria-hidden="true" :name="item.icon" class="z-10 size-5" />
 
               <span
                 v-if="$route.path === item.path"

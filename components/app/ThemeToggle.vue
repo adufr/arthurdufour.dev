@@ -20,7 +20,7 @@ const isDark = computed({
       class="relative flex items-center justify-center px-3 py-4 transition hover:text-red-500 dark:hover:text-red-400"
       @click="isDark = !isDark"
     >
-      <Icon
+      <NuxtIcon
         aria-hidden="true"
         :name="isDark ? 'solar:sun-2-outline' : 'solar:moon-outline'"
         class="size-5"
