@@ -12,7 +12,7 @@ useSeoMeta({
         <div class="flex flex-col gap-2">
           <div class="flex items-center gap-2">
             <NuxtLink v-if="doc.github" :to="doc.github" external class="flex items-center gap-2">
-              <Icon name="logos:github-icon" />
+              <NuxtIcon name="logos:github-icon" />
               <span v-if="!doc.url">
                 {{ doc.github }}
               </span>
