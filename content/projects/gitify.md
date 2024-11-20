@@ -58,3 +58,5 @@ Gitify has not only improved how I manage my GitHub notifications but also allow
 You can check out the app at [https://gitify.io/](https://gitify.io/) and, if you feel inspired, [contribute to its development](https://github.com/gitify-app/gitify)!
 
 Who knows? You might add the next feature that makes someone else's day easier! 😄
+
+### Screenshots
