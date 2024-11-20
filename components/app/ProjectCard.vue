@@ -9,7 +9,7 @@ defineProps({
 
 <template>
   <NuxtLink
-    class="group -m-2 flex items-end gap-4 rounded-lg p-2"
+    class="group -m-2 flex items-center justify-between gap-4 rounded-lg p-2"
     :to="project._path"
   >
     <div class="max-w-md">
@@ -37,9 +37,11 @@ defineProps({
       <p class="text-sm text-gray-400">
         {{ project.description }}
       </p>
-    </div>
 
-    <div class="mb-1.5 flex-1 border-b border-dashed border-gray-300 group-hover:border-gray-700 dark:border-gray-800" />
+      <p class="mt-2 text-xs text-red-400 group-hover:underline">
+        → Read: <span class="italic">{{ project.title }}</span>
+      </p>
+    </div>
 
     <UAvatar
       :src="project.thumbnail"

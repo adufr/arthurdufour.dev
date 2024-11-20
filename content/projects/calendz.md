@@ -6,14 +6,14 @@ github: "https://github.com/calendz"
 thumbnail: "/projects/calendz/logo.png"
 status: "Dead"
 author: true
+
+title: "Building My First Web Application: Calendz"
 screenshots:
   - /projects/calendz/landing.png
   - /projects/calendz/dashboard.png
   - /projects/calendz/calendar.png
   - /projects/calendz/statistics.png
 ---
-
-## Building My First Web Application: Calendz 🗓️
 
 As a fullstack developer, every project I work on holds a special place in my heart, but none compare to Calendz—my first complete web application. Built during my student years, it wasn't just a technical endeavor but also a deeply personal project that taught me invaluable lessons in development, problem-solving, and user experience.
 

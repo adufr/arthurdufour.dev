@@ -5,13 +5,13 @@ description: "Track who's in the office or in remote in your team(s)"
 thumbnail: "/projects/hybri/logo.png"
 status: "Dead"
 author: true
+
+title: "Hybri: A Pandemic-Era Side Project 😷"
 screenshots:
   - /projects/hybri/week.png
   - /projects/hybri/month.png
   - /projects/hybri/status.png
 ---
-
-## Hybri: A Pandemic-Era Side Project 😷
 
 Hybri is one of those projects where I had a spark of an idea, dove into implementing it, and then, as it often happens, moved on to something else 😅
 

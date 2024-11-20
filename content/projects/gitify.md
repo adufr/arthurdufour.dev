@@ -6,12 +6,12 @@ github: "https://github.com/gitify-app/gitify"
 thumbnail: "/projects/gitify/logo.png"
 status: "Active"
 author: false
+
+title: "Enhancing Gitify – A Contribution to Open Source"
 screenshots:
  - '/projects/gitify/gitify.webp'
  - '/projects/gitify/settings.webp'
 ---
-
-## Enhancing Gitify – A Contribution to Open Source
 
 As a fullstack developer, I'm always on the lookout for tools that can simplify my workflow. One such tool that has become indispensable to me is [Gitify](https://gitify.io/).
 

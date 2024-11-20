@@ -5,9 +5,9 @@ github: "https://github.com/adufr/spicetify-extensions"
 thumbnail: "/projects/spicetify-extensions/logo.png"
 status: "Active"
 author: true
----
 
-## Enhancing Spotify with Spicetify extensions 🎶
+title: "Enhancing Spotify with Spicetify extensions 🎶"
+---
 
 As a fullstack developer who spends about 8 hours a day immersed in music, I'm always on the lookout for ways to enhance my listening experience. Music is a constant companion throughout my day.
 

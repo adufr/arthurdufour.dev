@@ -6,12 +6,12 @@ url: "https://sportscalendar.app"
 thumbnail: "/projects/sportscalendar/logo.png"
 status: "WIP"
 author: true
+
+title: "Simplifying Sports Event Management"
 screenshots:
   - /projects/sportscalendar/calendar.png
   - /projects/sportscalendar/list.png
 ---
-
-## Simplifying Sports Event Management
 
 A recurring issue I've regularly faced is managing sports event schedules 🥲
 
