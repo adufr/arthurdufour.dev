@@ -39,7 +39,7 @@ const links = [
 
         <div class="flex-1 border-b border-dashed border-gray-300 group-hover:border-gray-700 dark:border-gray-800" />
 
-        <Icon
+        <NuxtIcon
           :name="link.icon"
           class="size-6"
         />
