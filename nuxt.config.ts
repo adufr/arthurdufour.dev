@@ -14,6 +14,7 @@ export default defineNuxtConfig({
     '@nuxthub/core',
     '@nuxt/eslint',
     '@nuxtjs/robots',
+    '@nuxtjs/sitemap',
   ],
 
   ui: {
@@ -37,6 +38,7 @@ export default defineNuxtConfig({
   },
 
   content: {
+    documentDriven: true,
     highlight: {
       theme: 'github-dark',
     },
@@ -62,6 +64,11 @@ export default defineNuxtConfig({
 
   hub: {
     blob: true,
+  },
+
+  site: {
+    url: 'https://arthurdufour.dev',
+    name: 'Arthur Dufour',
   },
 
   compatibilityDate: '2024-11-13',
