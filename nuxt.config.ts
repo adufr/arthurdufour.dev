@@ -13,6 +13,7 @@ export default defineNuxtConfig({
     '@vueuse/nuxt',
     '@nuxthub/core',
     '@nuxt/eslint',
+    '@nuxtjs/robots',
   ],
 
   ui: {
