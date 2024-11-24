@@ -64,5 +64,33 @@ export default defineNuxtConfig({
     blob: true,
   },
 
+  schemaOrg: {
+    identity: {
+      '@type': 'Person',
+
+      'name': 'Arthur Dufour',
+      'givenName': 'Arthur',
+      'familyName': 'Dufour',
+
+      'image': '/avatar.jpg',
+      'description': 'Full-stack developer, passionate about building useful and beautiful things.',
+      'jobTitle': 'Full-stack Developer',
+
+      'email': 'dufourarthur.perso@gmail.com',
+      'url': 'https://arthurdufour.dev',
+      'sameAs': [
+        'https://github.com/adufr',
+        'https://bsky.app/profile/arthurdufour.dev',
+        'https://www.linkedin.com/in/arthur-dufour/',
+      ],
+
+      'worksFor': {
+        '@type': 'Organization',
+        'name': '365Talents',
+        'url': 'https://365talents.com',
+      },
+    },
+  },
+
   compatibilityDate: '2024-11-13',
 })
