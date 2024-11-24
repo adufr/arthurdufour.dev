@@ -30,7 +30,7 @@ const items: Item[] = [
   {
     name: 'Github',
     path: 'https://github.com/adufr',
-    icon: 'mdi:github',
+    icon: 'logos:github-icon',
     external: true,
   },
 ]
