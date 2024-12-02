@@ -21,7 +21,7 @@
     "vue-use-fixed-header": "^2.0.3"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^3.11.0",
+    "@antfu/eslint-config": "^3.11.2",
     "@iconify-json/logos": "^1.2.3",
     "@iconify-json/lucide": "1.2.16",
     "@iconify-json/solar": "^1.2.1",
