@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "@nuxt/image": "1.8.1",
-    "@nuxt/ui": "2.19.2",
+    "@nuxt/ui": "2.20.0",
     "@unhead/vue": "^1.11.13",
     "vue-use-fixed-header": "^2.0.3"
   },
