@@ -40,6 +40,6 @@
     "eslint-plugin-tailwindcss": "^3.17.5",
     "nuxt": "3.14.1592",
     "nuxt-icon": "0.6.10",
-    "wrangler": "^3.92.0"
+    "wrangler": "^3.105.0"
   }
 }
