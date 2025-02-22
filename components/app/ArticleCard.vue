@@ -4,16 +4,16 @@ defineProps({
     type: Object,
     required: true,
   },
-})
+});
 
 function getReadableDate(dateString: string) {
-  const date = new Date(dateString)
+  const date = new Date(dateString);
 
-  return date.toLocaleDateString('en-US', {
-    year: 'numeric',
-    month: 'short',
-    day: 'numeric',
-  })
+  return date.toLocaleDateString("en-US", {
+    year: "numeric",
+    month: "short",
+    day: "numeric",
+  });
 }
 </script>
 
@@ -33,7 +33,9 @@ function getReadableDate(dateString: string) {
         {{ getReadableDate(article.published) }}
       </time>
 
-      <h2 class="text-base font-semibold tracking-tight text-gray-800 group-hover:text-red-600 dark:text-gray-100">
+      <h2
+        class="text-base font-semibold tracking-tight text-gray-800 group-hover:text-red-600 dark:text-gray-100"
+      >
         {{ article.title }}
       </h2>
 

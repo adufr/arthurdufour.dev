@@ -1,17 +1,24 @@
 <script lang="ts" setup>
 useSeoMeta({
-  twitterCard: 'summary_large_image',
-  author: 'Arthur Dufour',
-})
+  twitterCard: "summary_large_image",
+  author: "Arthur Dufour",
+});
 </script>
 
 <template>
   <main class="min-h-screen">
-    <div class="prose dark:prose-invert prose-blockquote:not-italic prose-pre:bg-gray-900 prose-img:rounded-lg prose-img:ring-1 prose-img:ring-gray-200 dark:prose-img:ring-white/10">
+    <div
+      class="prose dark:prose-invert prose-blockquote:not-italic prose-pre:bg-gray-900 prose-img:rounded-lg prose-img:ring-1 prose-img:ring-gray-200 dark:prose-img:ring-white/10"
+    >
       <ContentDoc v-slot="{ doc }" tag="div">
         <div class="flex flex-col gap-2">
           <div class="flex items-center gap-2">
-            <NuxtLink v-if="doc.github" :to="doc.github" external class="flex items-center gap-2">
+            <NuxtLink
+              v-if="doc.github"
+              :to="doc.github"
+              external
+              class="flex items-center gap-2"
+            >
               <NuxtIcon name="logos:github-icon" />
               <span v-if="!doc.url">
                 {{ doc.github }}
@@ -42,7 +49,7 @@ useSeoMeta({
             alt="Screenshot of the project"
             draggable="false"
             class="w-full cursor-pointer"
-          >
+          />
         </UCarousel>
       </ContentDoc>
     </div>

@@ -1,45 +1,47 @@
 <script lang="ts" setup>
-import { useFixedHeader } from 'vue-use-fixed-header'
+import { useFixedHeader } from "vue-use-fixed-header";
 
-const headerRef = ref(null)
-const { styles } = useFixedHeader(headerRef)
+const headerRef = ref(null);
+const { styles } = useFixedHeader(headerRef);
 
 interface Item {
-  name: string
-  path: string
-  icon: string
-  external?: boolean
+  name: string;
+  path: string;
+  icon: string;
+  external?: boolean;
 }
 
 const items: Item[] = [
   {
-    name: 'Home',
-    path: '/',
-    icon: 'solar:home-smile-outline',
+    name: "Home",
+    path: "/",
+    icon: "solar:home-smile-outline",
   },
   {
-    name: 'Projects',
-    path: '/projects',
-    icon: 'solar:folder-with-files-outline',
+    name: "Projects",
+    path: "/projects",
+    icon: "solar:folder-with-files-outline",
   },
   {
-    name: 'Articles',
-    path: '/articles',
-    icon: 'solar:document-add-outline',
+    name: "Articles",
+    path: "/articles",
+    icon: "solar:document-add-outline",
   },
   {
-    name: 'Github',
-    path: 'https://github.com/adufr',
-    icon: 'logos:github-icon',
+    name: "Github",
+    path: "https://github.com/adufr",
+    icon: "logos:github-icon",
     external: true,
   },
-]
+];
 </script>
 
 <template>
   <div ref="headerRef" :style="styles" class="fixed top-0 z-50 w-full">
     <nav class="mx-auto max-w-2xl px-4 sm:px-6 lg:px-8">
-      <ul class="my-4 flex items-center rounded-full bg-white/90 px-3 text-sm font-medium text-gray-800 shadow-lg shadow-gray-800/5 ring-1 ring-gray-900/5 backdrop-blur dark:bg-gray-800/90 dark:text-gray-200 dark:ring-white/20">
+      <ul
+        class="my-4 flex items-center rounded-full bg-white/90 px-3 text-sm font-medium text-gray-800 shadow-lg shadow-gray-800/5 ring-1 ring-gray-900/5 backdrop-blur dark:bg-gray-800/90 dark:text-gray-200 dark:ring-white/20"
+      >
         <li v-for="item in items" :key="item.path">
           <UTooltip
             :text="item.name"
@@ -52,7 +54,11 @@ const items: Item[] = [
               :external="item.external"
               :target="item.external ? '_blank' : ''"
             >
-              <NuxtIcon aria-hidden="true" :name="item.icon" class="z-10 size-5" />
+              <NuxtIcon
+                aria-hidden="true"
+                :name="item.icon"
+                class="z-10 size-5"
+              />
 
               <span
                 v-if="$route.path === item.path"

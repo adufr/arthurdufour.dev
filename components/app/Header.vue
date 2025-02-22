@@ -8,12 +8,14 @@ defineProps({
     type: String,
     required: true,
   },
-})
+});
 </script>
 
 <template>
   <div>
-    <h1 class="text-2xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100">
+    <h1
+      class="text-2xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100"
+    >
       {{ title }}
     </h1>
 

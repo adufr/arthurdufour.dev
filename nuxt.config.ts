@@ -2,48 +2,47 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
 
   modules: [
-    '@nuxt/ui',
-    'nuxt-icon',
-    '@nuxtjs/google-fonts',
-    '@nuxtjs/fontaine',
-    '@nuxtjs/plausible',
-    '@nuxt/image',
-    '@nuxt/content',
-    '@nuxthq/studio',
-    '@vueuse/nuxt',
-    '@nuxthub/core',
-    '@nuxt/eslint',
-    '@nuxtjs/robots',
+    "@nuxt/ui",
+    "nuxt-icon",
+    "@nuxtjs/google-fonts",
+    "@nuxtjs/fontaine",
+    "@nuxtjs/plausible",
+    "@nuxt/image",
+    "@nuxt/content",
+    "@nuxthq/studio",
+    "@vueuse/nuxt",
+    "@nuxthub/core",
+    "@nuxt/eslint",
+    "@nuxtjs/robots",
   ],
 
-  ui: {
-  },
+  ui: {},
 
   icon: {
-    componentName: 'NuxtIcon',
+    componentName: "NuxtIcon",
   },
 
   app: {
-    pageTransition: { name: 'page', mode: 'out-in' },
+    pageTransition: { name: "page", mode: "out-in" },
     head: {
       htmlAttrs: {
-        lang: 'en',
-        class: 'h-full',
+        lang: "en",
+        class: "h-full",
       },
       bodyAttrs: {
-        class: 'antialiased bg-gray-50 dark:bg-black min-h-screen',
+        class: "antialiased bg-gray-50 dark:bg-black min-h-screen",
       },
     },
   },
 
   content: {
     highlight: {
-      theme: 'github-dark',
+      theme: "github-dark",
     },
   },
 
   googleFonts: {
-    display: 'swap',
+    display: "swap",
     families: {
       Inter: [400, 500, 600, 700, 800, 900],
     },
@@ -56,13 +55,13 @@ export default defineNuxtConfig({
   },
 
   plausible: {
-    domain: 'arthurdufour.dev',
-    apiHost: 'https://plausible.arthurdufour.dev',
+    domain: "arthurdufour.dev",
+    apiHost: "https://plausible.arthurdufour.dev",
   },
 
   hub: {
     blob: true,
   },
 
-  compatibilityDate: '2024-11-13',
-})
+  compatibilityDate: "2024-11-13",
+});
