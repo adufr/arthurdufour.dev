@@ -48,6 +48,4 @@ module.exports = {
       ],
     },
   },
-  // eslint-disable-next-line ts/no-require-imports
-  plugins: [require('@tailwindcss/typography')],
 } satisfies Config

@@ -1,7 +1,7 @@
 <script lang="ts" setup>
 useSeoMeta({
   title: 'Arthur Dufour',
-  description: 'Hi 👋, I\'m Arthur, a passionate product-oriented fullstack developer from Lyon, France. I specialize in building web applications and sites using Javascript, Vue & Node.',
+  description: 'I\'m Arthur, a passionate product-oriented fullstack developer from Lyon, France. I specialize in building web applications and sites using Javascript, Vue & Node.',
 })
 </script>
 

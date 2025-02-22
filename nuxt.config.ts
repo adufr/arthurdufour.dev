@@ -14,6 +14,7 @@ export default defineNuxtConfig({
     '@nuxthub/core',
     '@nuxt/eslint',
     '@nuxtjs/robots',
+    'nuxt-og-image',
   ],
 
   ui: {
