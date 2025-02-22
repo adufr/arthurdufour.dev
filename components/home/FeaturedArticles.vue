@@ -1,10 +1,11 @@
 <script lang="ts" setup>
-const { data: articles } = await useAsyncData('articles-home', () =>
-  queryContent('/articles')
+const { data: articles } = await useAsyncData("articles-home", () =>
+  queryContent("/articles")
     .sort({ published: -1 })
     .limit(3)
-    .only(['title', 'description', 'published', 'slug', '_path'])
-    .find())
+    .only(["title", "description", "published", "slug", "_path"])
+    .find(),
+);
 </script>
 
 <template>

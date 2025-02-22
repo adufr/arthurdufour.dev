@@ -4,7 +4,7 @@ defineProps({
     type: Object,
     required: true,
   },
-})
+});
 </script>
 
 <template>
@@ -23,14 +23,11 @@ defineProps({
           color="red"
           :variant="project.author ? 'subtle' : 'soft'"
         >
-          {{ project.author ? 'Author' : 'Contributor' }}
+          {{ project.author ? "Author" : "Contributor" }}
         </UBadge>
 
         <UTooltip v-if="project.github" text="This project is open-source!">
-          <UIcon
-            name="logos:github-icon"
-            class="size-3"
-          />
+          <UIcon name="logos:github-icon" class="size-3" />
         </UTooltip>
       </div>
 

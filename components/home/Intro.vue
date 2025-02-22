@@ -1,8 +1,9 @@
 <script lang="ts" setup>
 useSeoMeta({
-  title: 'Arthur Dufour',
-  description: 'Hi 👋, I\'m Arthur, a passionate product-oriented fullstack developer from Lyon, France. I specialize in building web applications and sites using Javascript, Vue & Node.',
-})
+  title: "Arthur Dufour",
+  description:
+    "Hi 👋, I'm Arthur, a passionate product-oriented fullstack developer from Lyon, France. I specialize in building web applications and sites using Javascript, Vue & Node.",
+});
 </script>
 
 <template>
@@ -16,24 +17,26 @@ useSeoMeta({
       placeholder
     />
 
-    <h1 class="text-xl font-bold tracking-tight text-gray-800 dark:text-gray-100">
+    <h1
+      class="text-xl font-bold tracking-tight text-gray-800 dark:text-gray-100"
+    >
       Hello! 👋
     </h1>
 
     <p class="text-gray-900 dark:text-gray-400">
-      I'm Arthur, I work as a fullstack developer from Lyon, France.
-      I specialize in building web applications and sites
-      using Javascript, Vue & Node. I've procrastinated building this
-      website for years but finally it's here, I've carved out my own little
-      nook on the internet to share my silly experiments, nifty projects, and
-      thoughts (mostly about tech and design).
+      I'm Arthur, I work as a fullstack developer from Lyon, France. I
+      specialize in building web applications and sites using Javascript, Vue &
+      Node. I've procrastinated building this website for years but finally it's
+      here, I've carved out my own little nook on the internet to share my silly
+      experiments, nifty projects, and thoughts (mostly about tech and design).
     </p>
 
     <p class="text-gray-900 dark:text-gray-400">
       By day, I'm a Fullstack Developer at
-      <a href="https://365talents.com" target="_blank" class="underline">365Talents</a>, and
-      by night (and weekends), I'm busy tinkering with some random tool or app
-      that I am building or contributing to.
+      <a href="https://365talents.com" target="_blank" class="underline"
+        >365Talents</a
+      >, and by night (and weekends), I'm busy tinkering with some random tool
+      or app that I am building or contributing to.
     </p>
   </div>
 </template>
