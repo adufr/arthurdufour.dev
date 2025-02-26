@@ -43,7 +43,7 @@
     "eslint": "^9.21.0",
     "nuxt": "3.14.1592",
     "nuxt-icon": "0.6.10",
-    "wrangler": "^3.92.0"
+    "wrangler": "^3.110.0"
   },
   "prettier": "@adufr/prettier-config"
 }
