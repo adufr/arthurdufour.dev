@@ -4,9 +4,9 @@
 
 useSeoMeta({
   // ogImage: `https://fayazahmed.com/articles/${slug}.png`,
-  twitterCard: "summary_large_image",
-  author: "Arthur Dufour",
-});
+  twitterCard: 'summary_large_image',
+  author: 'Arthur Dufour',
+})
 </script>
 
 <template>
