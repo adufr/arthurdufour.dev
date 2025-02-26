@@ -1,8 +1,8 @@
 <script lang="ts" setup>
 useSeoMeta({
-  twitterCard: "summary_large_image",
-  author: "Arthur Dufour",
-});
+  twitterCard: 'summary_large_image',
+  author: 'Arthur Dufour',
+})
 </script>
 
 <template>
@@ -42,7 +42,7 @@ useSeoMeta({
           arrows
           :ui="{ item: 'basis-full' }"
           :items="doc.screenshots"
-          class="-mt-6 rounded-lg overflow-hidden"
+          class="-mt-6 overflow-hidden rounded-lg"
         >
           <img
             :src="item"

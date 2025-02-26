@@ -1,39 +1,39 @@
 <script lang="ts" setup>
-import { useFixedHeader } from "vue-use-fixed-header";
+import { useFixedHeader } from 'vue-use-fixed-header'
 
-const headerRef = ref(null);
-const { styles } = useFixedHeader(headerRef);
+const headerRef = ref(null)
+const { styles } = useFixedHeader(headerRef)
 
 interface Item {
-  name: string;
-  path: string;
-  icon: string;
-  external?: boolean;
+  name: string
+  path: string
+  icon: string
+  external?: boolean
 }
 
 const items: Item[] = [
   {
-    name: "Home",
-    path: "/",
-    icon: "solar:home-smile-outline",
+    name: 'Home',
+    path: '/',
+    icon: 'solar:home-smile-outline',
   },
   {
-    name: "Projects",
-    path: "/projects",
-    icon: "solar:folder-with-files-outline",
+    name: 'Projects',
+    path: '/projects',
+    icon: 'solar:folder-with-files-outline',
   },
   {
-    name: "Articles",
-    path: "/articles",
-    icon: "solar:document-add-outline",
+    name: 'Articles',
+    path: '/articles',
+    icon: 'solar:document-add-outline',
   },
   {
-    name: "Github",
-    path: "https://github.com/adufr",
-    icon: "logos:github-icon",
+    name: 'Github',
+    path: 'https://github.com/adufr',
+    icon: 'logos:github-icon',
     external: true,
   },
-];
+]
 </script>
 
 <template>
