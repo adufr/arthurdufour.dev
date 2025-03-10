@@ -2,7 +2,7 @@
   "name": "arthurdufour.dev",
   "version": "1.1.0",
   "private": true,
-  "packageManager": "pnpm@9.15.6",
+  "packageManager": "pnpm@9.15.9",
   "description": "My personal website (porfolio, blog, etc.)",
   "type": "module",
   "scripts": {
@@ -19,7 +19,7 @@
   },
   "dependencies": {
     "@nuxt/image": "1.9.0",
-    "@nuxt/ui": "2.21.0",
+    "@nuxt/ui": "2.21.1",
     "@unhead/vue": "^1.11.20",
     "vue-use-fixed-header": "^2.0.3"
   },
@@ -33,17 +33,17 @@
     "@nuxt/devtools": "1.7.0",
     "@nuxt/eslint": "^1.1.0",
     "@nuxthq/studio": "2.2.1",
-    "@nuxthub/core": "^0.8.17",
+    "@nuxthub/core": "^0.8.18",
     "@nuxtjs/fontaine": "^0.5.0",
     "@nuxtjs/google-fonts": "3.2.0",
     "@nuxtjs/plausible": "^1.2.0",
-    "@nuxtjs/robots": "^5.2.4",
-    "@vueuse/core": "^12.7.0",
-    "@vueuse/nuxt": "^12.7.0",
+    "@nuxtjs/robots": "^5.2.6",
+    "@vueuse/core": "^12.8.2",
+    "@vueuse/nuxt": "^12.8.2",
     "eslint": "^9.21.0",
-    "nuxt": "3.15.4",
+    "nuxt": "3.16.0",
     "nuxt-icon": "0.6.10",
-    "wrangler": "^3.111.0"
+    "wrangler": "^3.114.0"
   },
   "prettier": "@adufr/prettier-config"
 }
