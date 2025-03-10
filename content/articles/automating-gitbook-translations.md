@@ -41,6 +41,9 @@ The solution I'm sharing creates an automated pipeline that:
 3. Creates the corresponding content in your target language spaces
 4. Commits the changes back to your repository, automatically updating GitBook
 
+Here's a diagram showing the complete workflow:
+![Diagram](/articles/automating-gitbook-translations/diagram.png)
+
 ### Step 1: Setting up GitBook with GitSync
 
 Before we can automate translations, we need to set up GitBook properly and connect it to GitHub using GitSync.
