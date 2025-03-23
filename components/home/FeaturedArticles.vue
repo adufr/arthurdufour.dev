@@ -1,20 +1,19 @@
 <script lang="ts" setup>
 const { data: articles } = await useAsyncData('articles-home', () =>
-  queryContent('/articles')
-    .sort({ published: -1 })
+  queryCollection('articles')
+    // .order('published', 'desc')
     .limit(3)
-    .only(['title', 'description', 'published', 'slug', '_path'])
-    .find(),
+    .all(),
 )
 </script>
 
 <template>
   <div>
-    <h2 class="mb-6 text-xs font-semibold uppercase text-gray-400">
+    <h2 class="mb-6 text-xs font-semibold text-neutral-400 uppercase">
       RECENT ARTICLES
     </h2>
 
-    <ul class="space-y-16">
+    <ul class="flex flex-col gap-8">
       <li v-for="(article, id) in articles" :key="id">
         <AppArticleCard :article="article" />
       </li>
@@ -25,7 +24,7 @@ const { data: articles } = await useAsyncData('articles-home', () =>
         label="All Articles &rarr;"
         to="/articles"
         variant="link"
-        color="gray"
+        color="neutral"
       />
     </div>
   </div>

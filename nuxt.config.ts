@@ -5,16 +5,17 @@ export default defineNuxtConfig({
     '@nuxt/ui',
     'nuxt-icon',
     '@nuxtjs/google-fonts',
-    '@nuxtjs/fontaine',
+    '@nuxtjs/robots',
     '@nuxtjs/plausible',
     '@nuxt/image',
     '@nuxt/content',
-    '@nuxthq/studio',
     '@vueuse/nuxt',
     '@nuxthub/core',
     '@nuxt/eslint',
-    '@nuxtjs/robots',
+    '@nuxtjs/mdc',
   ],
+
+  css: ['~/assets/css/main.css'],
 
   ui: {},
 
@@ -30,19 +31,22 @@ export default defineNuxtConfig({
         class: 'h-full',
       },
       bodyAttrs: {
-        class: 'antialiased bg-gray-50 dark:bg-black min-h-screen',
+        class: 'antialiased bg-neutral-50 dark:bg-black min-h-screen',
       },
     },
   },
 
   content: {
-    highlight: {
-      theme: 'github-dark',
+    build: {
+      markdown: {
+        highlight: {
+          theme: 'github-dark',
+        },
+      },
     },
   },
 
   googleFonts: {
-    display: 'swap',
     families: {
       Inter: [400, 500, 600, 700, 800, 900],
     },

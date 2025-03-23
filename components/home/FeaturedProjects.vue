@@ -1,16 +1,16 @@
 <script lang="ts" setup>
 const { data: projects } = await useAsyncData('projects-home', () =>
-  queryContent('/projects').limit(3).find(),
+  queryCollection('projects').limit(3).all(),
 )
 </script>
 
 <template>
   <div>
-    <h2 class="mb-6 text-xs font-semibold uppercase text-gray-400">
+    <h2 class="mb-6 text-xs font-semibold text-neutral-400 uppercase">
       FEATURED PROEJCTS
     </h2>
 
-    <div class="space-y-4">
+    <div class="flex flex-col gap-8">
       <AppProjectCard
         v-for="(project, id) in projects"
         :key="id"
@@ -23,7 +23,7 @@ const { data: projects } = await useAsyncData('projects-home', () =>
         label="All Projects &rarr;"
         to="/projects"
         variant="link"
-        color="gray"
+        color="neutral"
       />
     </div>
   </div>

@@ -1,7 +1,7 @@
 ---
 name: "Calendz"
-description: "Improved agenda for EPSI's students."
 slug: "calendz"
+description: "Improved agenda for EPSI's students."
 github: "https://github.com/calendz"
 thumbnail: "/projects/calendz/logo.png"
 status: "Dead"

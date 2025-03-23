@@ -8,7 +8,7 @@ useSeoMeta({
 })
 
 const { data: projects } = await useAsyncData('projects-all', () =>
-  queryContent('/projects').find(),
+  queryCollection('projects').all(),
 )
 </script>
 
@@ -16,7 +16,7 @@ const { data: projects } = await useAsyncData('projects-all', () =>
   <main class="min-h-screen">
     <AppHeader class="mb-12" title="Projects" :description />
 
-    <div class="space-y-4">
+    <div class="flex flex-col gap-8">
       <AppProjectCard v-for="(project, id) in projects" :key="id" :project />
     </div>
   </main>
