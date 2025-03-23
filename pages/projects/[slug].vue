@@ -8,7 +8,7 @@ useSeoMeta({
 <template>
   <main class="min-h-screen">
     <div
-      class="prose dark:prose-invert prose-blockquote:not-italic prose-pre:bg-gray-900 prose-img:rounded-lg prose-img:ring-1 prose-img:ring-gray-200 dark:prose-img:ring-white/10"
+      class="prose dark:prose-invert prose-blockquote:not-italic prose-pre:bg-neutral-900 prose-img:rounded-lg prose-img:ring-1 prose-img:ring-neutral-200 dark:prose-img:ring-white/10"
     >
       <ContentDoc v-slot="{ doc }" tag="div">
         <div class="flex flex-col gap-2">

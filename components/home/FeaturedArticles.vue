@@ -10,7 +10,7 @@ const { data: articles } = await useAsyncData('articles-home', () =>
 
 <template>
   <div>
-    <h2 class="mb-6 text-xs font-semibold uppercase text-gray-400">
+    <h2 class="mb-6 text-xs font-semibold text-neutral-400 uppercase">
       RECENT ARTICLES
     </h2>
 
@@ -25,7 +25,7 @@ const { data: articles } = await useAsyncData('articles-home', () =>
         label="All Articles &rarr;"
         to="/articles"
         variant="link"
-        color="gray"
+        color="neutral"
       />
     </div>
   </div>

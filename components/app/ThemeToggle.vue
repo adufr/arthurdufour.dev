@@ -12,7 +12,7 @@ const isDark = computed({
 </script>
 
 <template>
-  <UTooltip text="Toggle theme" :ui="{ popper: { strategy: 'absolute' } }">
+  <UTooltip text="Toggle theme">
     <button
       class="relative flex items-center justify-center px-3 py-4 transition hover:text-red-500 dark:hover:text-red-400"
       @click="isDark = !isDark"

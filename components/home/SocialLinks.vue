@@ -20,7 +20,7 @@ const links = [
 
 <template>
   <div>
-    <h2 class="mb-4 text-xs font-semibold uppercase text-gray-400">
+    <h2 class="mb-4 text-xs font-semibold text-neutral-400 uppercase">
       FIND ME ON
     </h2>
 
@@ -31,14 +31,14 @@ const links = [
         :to="link.url"
         target="_blank"
         external
-        class="group flex items-center gap-4 dark:hover:text-gray-300"
+        class="group flex items-center gap-4 dark:hover:text-neutral-300"
       >
         <span class="text-sm">
           {{ link.name }}
         </span>
 
         <div
-          class="flex-1 border-b border-dashed border-gray-300 group-hover:border-gray-700 dark:border-gray-800"
+          class="flex-1 border-b border-dashed border-neutral-300 group-hover:border-neutral-700 dark:border-neutral-800"
         />
 
         <NuxtIcon :name="link.icon" class="size-6" />

@@ -20,7 +20,7 @@ defineProps({
 
         <UBadge
           size="xs"
-          color="red"
+          color="error"
           :variant="project.author ? 'subtle' : 'soft'"
         >
           {{ project.author ? 'Author' : 'Contributor' }}
@@ -31,7 +31,7 @@ defineProps({
         </UTooltip>
       </div>
 
-      <p class="text-sm text-gray-400">
+      <p class="text-sm text-neutral-400">
         {{ project.description }}
       </p>
 
@@ -40,11 +40,6 @@ defineProps({
       </p>
     </div>
 
-    <UAvatar
-      :src="project.thumbnail"
-      :ui="{ rounded: 'rounded z-10 relative' }"
-      size="md"
-      :alt="project.name"
-    />
+    <UAvatar :src="project.thumbnail" size="md" :alt="project.name" />
   </NuxtLink>
 </template>
