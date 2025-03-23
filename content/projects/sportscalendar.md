@@ -1,7 +1,7 @@
 ---
 name: "SportsCalendar"
-description: "All your sports calendars, but in one place"
 slug: "sportscalendar"
+description: "All your sports calendars, but in one place"
 url: "https://sportscalendar.app"
 thumbnail: "/projects/sportscalendar/logo.png"
 status: "WIP"

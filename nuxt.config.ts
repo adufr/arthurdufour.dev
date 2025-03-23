@@ -5,6 +5,7 @@ export default defineNuxtConfig({
     '@nuxt/ui',
     'nuxt-icon',
     '@nuxtjs/google-fonts',
+    '@nuxtjs/robots',
     '@nuxtjs/plausible',
     '@nuxt/image',
     '@nuxt/content',
@@ -12,7 +13,7 @@ export default defineNuxtConfig({
     '@vueuse/nuxt',
     '@nuxthub/core',
     '@nuxt/eslint',
-    '@nuxtjs/robots',
+    '@nuxtjs/mdc',
   ],
 
   css: ['~/assets/css/main.css'],
@@ -37,8 +38,12 @@ export default defineNuxtConfig({
   },
 
   content: {
-    highlight: {
-      theme: 'github-dark',
+    build: {
+      markdown: {
+        highlight: {
+          theme: 'github-dark',
+        },
+      },
     },
   },
 

@@ -3,6 +3,11 @@ useSeoMeta({
   twitterCard: 'summary_large_image',
   author: 'Arthur Dufour',
 })
+
+const slug = useRoute().params.slug
+const { data: project } = await useAsyncData(`project-${slug}`, () => {
+  return queryCollection('projects').path(`/projects/${slug}`).first()
+})
 </script>
 
 <template>
@@ -10,38 +15,38 @@ useSeoMeta({
     <div
       class="prose dark:prose-invert prose-blockquote:not-italic prose-pre:bg-neutral-900 prose-img:rounded-lg prose-img:ring-1 prose-img:ring-neutral-200 dark:prose-img:ring-white/10"
     >
-      <ContentDoc v-slot="{ doc }" tag="div">
+      <div v-if="project">
         <div class="flex flex-col gap-2">
           <div class="flex items-center gap-2">
             <NuxtLink
-              v-if="doc.github"
-              :to="doc.github"
+              v-if="project.github"
+              :to="project.github"
               external
               class="flex items-center gap-2"
             >
               <NuxtIcon name="logos:github-icon" />
-              <span v-if="!doc.url">
-                {{ doc.github }}
+              <span v-if="!project.url">
+                {{ project.github }}
               </span>
             </NuxtLink>
 
-            <NuxtLink v-if="doc.url" :to="doc.url" external>
-              {{ doc.url }}
+            <NuxtLink v-if="project.url" :to="project.url" external>
+              {{ project.url }}
             </NuxtLink>
           </div>
 
           <h1 class="mb-0 text-2xl">
-            {{ doc.title }}
+            {{ project.title }}
           </h1>
         </div>
 
-        <ContentRenderer :value="doc" />
+        <ContentRenderer :value="project" />
 
         <UCarousel
           v-slot="{ item }"
           arrows
           :ui="{ item: 'basis-full' }"
-          :items="doc.screenshots"
+          :items="project.screenshots"
           class="-mt-6 overflow-hidden rounded-lg"
         >
           <img
@@ -51,7 +56,7 @@ useSeoMeta({
             class="w-full cursor-pointer"
           />
         </UCarousel>
-      </ContentDoc>
+      </div>
     </div>
   </main>
 </template>

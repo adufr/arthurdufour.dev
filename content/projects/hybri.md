@@ -1,5 +1,6 @@
 ---
 name: "Hybri"
+slug: "hybri"
 url: "https://hybri.app"
 description: "Track who's in the office or in remote in your team(s)"
 thumbnail: "/projects/hybri/logo.png"

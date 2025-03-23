@@ -18,7 +18,7 @@ function getReadableDate(dateString: string) {
 </script>
 
 <template>
-  <NuxtLink :to="article._path" class="group">
+  <NuxtLink :to="`/articles/${article.slug}`" class="group">
     <article>
       <time
         class="relative z-10 order-first mb-3 flex items-center pl-3.5 text-sm text-neutral-400 dark:text-neutral-500"

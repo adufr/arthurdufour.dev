@@ -10,7 +10,7 @@ defineProps({
 <template>
   <NuxtLink
     class="group -m-2 flex items-center justify-between gap-4 rounded-lg p-2"
-    :to="project._path"
+    :to="`/projects/${project.slug}`"
   >
     <div class="max-w-md">
       <div class="flex items-center gap-2">
