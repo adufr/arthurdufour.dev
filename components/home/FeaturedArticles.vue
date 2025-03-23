@@ -13,7 +13,7 @@ const { data: articles } = await useAsyncData('articles-home', () =>
       RECENT ARTICLES
     </h2>
 
-    <ul class="space-y-16">
+    <ul class="flex flex-col gap-8">
       <li v-for="(article, id) in articles" :key="id">
         <AppArticleCard :article="article" />
       </li>

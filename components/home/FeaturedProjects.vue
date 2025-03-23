@@ -10,7 +10,7 @@ const { data: projects } = await useAsyncData('projects-home', () =>
       FEATURED PROEJCTS
     </h2>
 
-    <div class="space-y-4">
+    <div class="flex flex-col gap-8">
       <AppProjectCard
         v-for="(project, id) in projects"
         :key="id"
