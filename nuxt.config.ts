@@ -9,7 +9,6 @@ export default defineNuxtConfig({
     '@nuxtjs/plausible',
     '@nuxt/image',
     '@nuxt/content',
-    '@nuxthq/studio',
     '@vueuse/nuxt',
     '@nuxthub/core',
     '@nuxt/eslint',
