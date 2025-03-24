@@ -18,7 +18,7 @@
     "type-check": "./node_modules/.bin/tsc --noEmit"
   },
   "dependencies": {
-    "@nuxt/image": "1.9.0",
+    "@nuxt/image": "1.10.0",
     "@nuxt/ui": "3.0.1",
     "@tailwindcss/typography": "^0.5.16",
     "@unhead/vue": "^1.11.20",
@@ -29,7 +29,7 @@
     "@adufr/eslint-config": "^1.0.2",
     "@adufr/prettier-config": "^0.0.4",
     "@iconify-json/logos": "^1.2.4",
-    "@iconify-json/lucide": "1.2.28",
+    "@iconify-json/lucide": "1.2.32",
     "@iconify-json/solar": "^1.2.2",
     "@nuxt/content": "^3.4.0",
     "@nuxt/devtools": "1.7.0",
@@ -38,13 +38,13 @@
     "@nuxtjs/google-fonts": "3.2.0",
     "@nuxtjs/mdc": "0.16.1",
     "@nuxtjs/plausible": "^1.2.0",
-    "@nuxtjs/robots": "^5.2.6",
+    "@nuxtjs/robots": "^5.2.8",
     "@vueuse/core": "^12.8.2",
     "@vueuse/nuxt": "^12.8.2",
     "eslint": "^9.21.0",
     "nuxt": "3.16.1",
     "nuxt-icon": "0.6.10",
-    "wrangler": "^3.114.0"
+    "wrangler": "^3.114.2"
   },
   "prettier": "@adufr/prettier-config"
 }
