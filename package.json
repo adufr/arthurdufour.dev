@@ -26,7 +26,7 @@
     "vue-use-fixed-header": "^2.0.3"
   },
   "devDependencies": {
-    "@adufr/eslint-config": "^1.0.2",
+    "@adufr/eslint-config": "^2.0.0",
     "@adufr/prettier-config": "^0.0.4",
     "@iconify-json/logos": "^1.2.4",
     "@iconify-json/lucide": "1.2.28",
