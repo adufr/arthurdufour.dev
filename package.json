@@ -41,7 +41,7 @@
     "@nuxtjs/robots": "^5.2.9",
     "@vueuse/core": "^12.8.2",
     "@vueuse/nuxt": "^12.8.2",
-    "eslint": "^9.23.0",
+    "eslint": "^9.25.0",
     "nuxt": "3.16.2",
     "nuxt-icon": "0.6.10",
     "wrangler": "^4.12.0"
