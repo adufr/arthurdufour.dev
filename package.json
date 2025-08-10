@@ -42,7 +42,7 @@
     "@vueuse/core": "^12.8.2",
     "@vueuse/nuxt": "^12.8.2",
     "eslint": "^9.27.0",
-    "nuxt": "3.17.1",
+    "nuxt": "4.0.3",
     "nuxt-icon": "0.6.10",
     "wrangler": "^4.13.2"
   },
