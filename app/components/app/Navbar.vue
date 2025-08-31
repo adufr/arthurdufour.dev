@@ -44,38 +44,39 @@ const items: Item[] = [
       >
         <li v-for="item in items" :key="item.path">
           <UTooltip :text="item.name">
-            <ULink
-              :to="item.path"
-              class="relative flex items-center justify-center px-3 py-4 transition hover:text-red-500 dark:hover:text-red-400"
-              active-class="text-red-600 dark:text-red-400"
-              :external="item.external"
-              :target="item.external ? '_blank' : ''"
-            >
-              <NuxtIcon
-                aria-hidden="true"
-                :name="item.icon"
-                class="z-10 size-5"
-              />
+            <span class="inline-flex">
+              <ULink
+                :to="item.path"
+                class="relative flex items-center justify-center px-3 py-4 transition hover:text-red-500 dark:hover:text-red-400"
+                active-class="text-red-600 dark:text-red-400"
+                :external="item.external"
+                :target="item.external ? '_blank' : undefined"
+              >
+                <UIcon
+                  aria-hidden="true"
+                  :name="item.icon"
+                  class="z-10 size-5"
+                />
 
-              <span
-                v-if="$route.path === item.path"
-                class="absolute inset-x-1 -bottom-px h-px bg-linear-to-r from-red-500/0 via-red-500/70 to-red-500/0 dark:from-red-400/0 dark:via-red-400/40 dark:to-red-400/0"
-              />
+                <span
+                  v-if="$route.path === item.path"
+                  class="absolute inset-x-1 -bottom-px h-px bg-linear-to-r from-red-500/0 via-red-500/70 to-red-500/0 dark:from-red-400/0 dark:via-red-400/40 dark:to-red-400/0"
+                />
 
-              <span
-                v-if="$route.path === item.path"
-                class="absolute top-1/2 left-1/2 z-0 size-8 -translate-x-1/2 -translate-y-1/2 rounded-full bg-neutral-100 dark:bg-white/10"
-              />
+                <span
+                  v-if="$route.path === item.path"
+                  class="absolute top-1/2 left-1/2 z-0 size-8 -translate-x-1/2 -translate-y-1/2 rounded-full bg-neutral-100 dark:bg-white/10"
+                />
 
-              <span class="sr-only">
-                {{ item.name }}
-              </span>
-            </ULink>
+                <span class="sr-only">
+                  {{ item.name }}
+                </span>
+              </ULink>
+            </span>
           </UTooltip>
         </li>
 
         <li class="flex-1" />
-
         <li>
           <AppThemeToggle />
         </li>

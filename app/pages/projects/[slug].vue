@@ -24,7 +24,7 @@ const { data: project } = await useAsyncData(`project-${slug}`, () => {
               external
               class="flex items-center gap-2"
             >
-              <NuxtIcon name="logos:github-icon" />
+              <UIcon name="logos:github-icon" />
               <span v-if="!project.url">
                 {{ project.github }}
               </span>
