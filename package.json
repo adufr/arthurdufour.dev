@@ -11,11 +11,11 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "lint": "./node_modules/.bin/eslint --no-fix --quiet \"./**/*.{ts,js,vue,yaml,json}\"",
-    "lint:fix": "./node_modules/.bin/eslint --fix --quiet \"./**/*.{ts,js,vue,yaml,json}\"",
-    "format": "./node_modules/.bin/prettier --check \"./**/*.{ts,js,vue,yaml,json}\"",
-    "format:fix": "./node_modules/.bin/prettier --write \"./**/*.{ts,js,vue,yaml,json}\"",
-    "type-check": "./node_modules/.bin/tsc --noEmit"
+    "lint": "eslint --no-fix --quiet \"./**/*.{ts,js,vue,yaml,json}\"",
+    "lint:fix": "eslint --fix --quiet \"./**/*.{ts,js,vue,yaml,json}\"",
+    "format": "prettier --check \"./**/*.{ts,js,vue,yaml,json}\"",
+    "format:fix": "prettier --write \"./**/*.{ts,js,vue,yaml,json}\"",
+    "type-check": "tsc --noEmit"
   },
   "dependencies": {
     "@nuxt/image": "1.11.0",
