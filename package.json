@@ -26,14 +26,14 @@
     "vue-use-fixed-header": "^2.0.3"
   },
   "devDependencies": {
-    "@adufr/eslint-config": "^1.0.2",
-    "@adufr/prettier-config": "^0.0.4",
+    "@adufr/eslint-config": "^3.0.0",
+    "@adufr/prettier-config": "^1.0.1",
     "@iconify-json/logos": "^1.2.9",
     "@iconify-json/lucide": "1.2.66",
     "@iconify-json/solar": "^1.2.4",
     "@nuxt/content": "^3.5.1",
     "@nuxt/devtools": "1.7.0",
-    "@nuxt/eslint": "^1.4.0",
+    "@nuxt/eslint": "^1.9.0",
     "@nuxthub/core": "^0.8.25",
     "@nuxtjs/google-fonts": "3.2.0",
     "@nuxtjs/mdc": "0.17.2",
@@ -41,7 +41,7 @@
     "@nuxtjs/robots": "^5.5.1",
     "@vueuse/core": "^12.8.2",
     "@vueuse/nuxt": "^12.8.2",
-    "eslint": "^9.27.0",
+    "eslint": "^9.34.0",
     "nuxt": "3.17.1",
     "nuxt-icon": "0.6.10",
     "wrangler": "^4.33.1"
