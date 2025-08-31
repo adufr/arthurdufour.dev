@@ -40,7 +40,7 @@ importers:
         specifier: ^1.2.4
         version: 1.2.4
       '@nuxt/content':
-        specifier: ^3.5.1
+        specifier: ^3.6.3
         version: 3.6.3(magicast@0.3.5)
       '@nuxt/devtools':
         specifier: 2.6.3
