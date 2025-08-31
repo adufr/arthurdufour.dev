@@ -3,7 +3,6 @@ export default defineNuxtConfig({
 
   modules: [
     '@nuxt/ui',
-    'nuxt-icon',
     '@nuxtjs/google-fonts',
     '@nuxtjs/robots',
     '@nuxtjs/plausible',
@@ -18,10 +17,6 @@ export default defineNuxtConfig({
   css: ['~/assets/css/main.css'],
 
   ui: {},
-
-  icon: {
-    componentName: 'NuxtIcon',
-  },
 
   app: {
     pageTransition: { name: 'page', mode: 'out-in' },

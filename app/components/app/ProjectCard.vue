@@ -27,7 +27,9 @@ defineProps({
         </UBadge>
 
         <UTooltip v-if="project.github" text="This project is open-source!">
-          <UIcon name="logos:github-icon" class="size-3" />
+          <span class="inline-flex">
+            <UIcon name="logos:github-icon" class="size-3" />
+          </span>
         </UTooltip>
       </div>
 

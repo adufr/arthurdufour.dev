@@ -41,7 +41,7 @@ const links = [
           class="flex-1 border-b border-dashed border-neutral-300 group-hover:border-neutral-700 dark:border-neutral-800"
         />
 
-        <NuxtIcon :name="link.icon" class="size-6" />
+        <UIcon :name="link.icon" class="size-6" />
       </NuxtLink>
     </div>
   </div>
