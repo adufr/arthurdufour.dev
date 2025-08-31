@@ -42,6 +42,7 @@
     "@vueuse/nuxt": "^13.8.0",
     "eslint": "^9.34.0",
     "nuxt": "4.0.3",
+    "prettier": "^3.6.2",
     "wrangler": "^4.33.1"
   },
   "prettier": "@adufr/prettier-config"
