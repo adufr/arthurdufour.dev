@@ -2,7 +2,7 @@
   "name": "arthurdufour.dev",
   "version": "1.1.0",
   "private": true,
-  "packageManager": "pnpm@10.19.0",
+  "packageManager": "pnpm@10.20.0",
   "description": "My personal website (porfolio, blog, etc.)",
   "type": "module",
   "scripts": {
@@ -27,10 +27,10 @@
   "devDependencies": {
     "@adufr/eslint-config": "^3.0.0",
     "@adufr/prettier-config": "^1.0.1",
-    "@iconify-json/logos": "^1.2.9",
+    "@iconify-json/logos": "^1.2.10",
     "@iconify-json/lucide": "1.2.71",
-    "@iconify-json/solar": "^1.2.4",
-    "@nuxt/content": "^3.7.1",
+    "@iconify-json/solar": "^1.2.5",
+    "@nuxt/content": "^3.8.0",
     "@nuxt/devtools": "2.7.0",
     "@nuxt/eslint": "^1.9.0",
     "@nuxthub/core": "^0.9.0",
@@ -43,7 +43,7 @@
     "eslint": "^9.38.0",
     "nuxt": "4.2.0",
     "prettier": "^3.6.2",
-    "wrangler": "^4.45.0"
+    "wrangler": "^4.45.3"
   },
   "prettier": "@adufr/prettier-config"
 }
