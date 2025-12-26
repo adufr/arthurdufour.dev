@@ -1,0 +1,62 @@
+seo:
+  title: Arthur Dufour - Fullstack Developer
+  description: "Welcome to my portfolio! I'm Arthur Dufour, a fullstack developer based in Lyon, France. I specialize in building product-focused applications that are intuitive, engaging, and solve real problems."
+title: "Hey, I'm Arthur Dufour Fullstack Developer"
+description: 'I build user-focused applications that turn ideas into functional, problem-solving experiences. Passionate about shaping products from concept to code.'
+hero:
+  links:
+    - label: My GitHub
+      to: https://github.com/adufr
+      color: neutral
+      icon: i-simple-icons-github
+  images:
+    - src: /hero/valloire.jpg
+      alt: Walking in Valloire, France
+    - src: /hero/cat.jpg
+      alt: My cat Turbo
+    - src: /hero/ski.jpg
+      alt: Skiing in the French Alps
+    - src: /hero/motorcycle.jpg
+      alt: My motorcycle
+    - src: /hero/samoens.jpg
+      alt: Samoëns, France
+about:
+  title: About Me
+  description: |
+    I’m a product-oriented full-stack developer with 6 years of experience, passionate about imagining and building user-focused applications that solve meaningful problems.
+    My work bridges product thinking and technical execution to create intuitive, end-to-end digital experiences.
+experience:
+  title: Work Experience
+  items:
+    - position: Fullstack Developer at
+      date: 2023 - Present
+      company:
+        name: 365Talents
+        url: 'https://365talents.com'
+        color: '#6030F7'
+    - position: Fullstack Developer at
+      date: 2019 - 2023
+      company:
+        name: Road-b-Score
+        color: '#FFFFFF'
+blog:
+  title: Latest Articles
+  description: Some of my recent thoughts
+faq:
+  title: Frequently Asked Questions
+  description: Answers to common questions about me and my work.
+  categories:
+    - title: Current work
+      questions:
+        - label: What are you currently focusing on?
+          content: |
+            Right now, I’m focused on growing both as a professional developer and as an independent builder. I work full-time at 365Talents, where I’m continuously sharpening my skills by building and maintaining real-world products at scale. Alongside that, I spend my spare time working on my own projects—hybri.app and sportscalendar.app—where I get to experiment, move fast, and explore ideas end-to-end. Balancing full-time work with side projects keeps me motivated, curious, and constantly learning, and it’s where I feel I do my best work.
+
+    - title: About Me
+      questions:
+        - label: What do you enjoy most about your work?
+          content: |
+            I love the challenge of solving complex problems through design and technology. It's incredibly rewarding to see people interact with something I've created and find it genuinely useful and easy to navigate. Bridging the gap between user needs and technical possibilities is what truly excites me.
+        - label: What are your hobbies outside of work?
+          content: |
+            Outside of work, I’m really into sports and staying active. Running is a big focus for me at the moment; I’m currently preparing for the Annecy Half Marathon in April 2026, which has become a great way to challenge myself and clear my head. I also enjoy skiing whenever I can, especially in the mountains, and riding motorcycles, which gives me that perfect mix of focus, freedom, and adrenaline away from the screen.
