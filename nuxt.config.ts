@@ -9,6 +9,7 @@ export default defineNuxtConfig({
     'nuxt-og-image',
     'motion-v/nuxt',
     '@nuxt/test-utils',
+    '@nuxtjs/plausible',
   ],
 
   devtools: {
@@ -30,5 +31,11 @@ export default defineNuxtConfig({
     config: {
       standalone: false,
     },
+  },
+
+  plausible: {
+    domain: 'arthurdufour.dev',
+    apiHost: 'https://plausible.arthurdufour.dev',
+    ignoredHostnames: ['localhost'],
   },
 })
