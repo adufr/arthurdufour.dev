@@ -1,3 +1,5 @@
+import packageJson from '../package.json'
+
 export default defineAppConfig({
   global: {
     picture: {
@@ -23,7 +25,7 @@ export default defineAppConfig({
     },
   },
   footer: {
-    credits: `Built with Nuxt UI • © ${new Date().getFullYear()}`,
+    credits: `Built with Nuxt UI • © ${new Date().getFullYear()} • v${packageJson.version}`,
     colorMode: false,
     links: [
       {
