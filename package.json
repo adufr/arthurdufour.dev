@@ -2,7 +2,7 @@
   "name": "arthurdufour.dev",
   "type": "module",
   "private": true,
-  "packageManager": "pnpm@10.26.1",
+  "packageManager": "pnpm@10.30.3",
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
