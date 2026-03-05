@@ -31,20 +31,6 @@ const breadcrumb = computed(() =>
   ).map(({ icon, ...link }) => link),
 )
 
-if (page.value.image) {
-  defineOgImage({ url: page.value.image })
-} else {
-  defineOgImageComponent(
-    'Blog',
-    {
-      headline: breadcrumb.value.map((item) => item.label).join(' > '),
-    },
-    {
-      fonts: ['Geist:400', 'Geist:600'],
-    },
-  )
-}
-
 const title = page.value?.seo?.title || page.value?.title
 const description = page.value?.seo?.description || page.value?.description
 
