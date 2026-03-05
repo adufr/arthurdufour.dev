@@ -30,7 +30,7 @@
   "devDependencies": {
     "@adufr/eslint-config": "^3.0.0",
     "@adufr/prettier-config": "^1.0.2",
-    "@nuxt/eslint": "^1.12.1",
+    "@nuxt/eslint": "^1.15.2",
     "eslint": "^9.39.2",
     "typescript": "^5.9.3",
     "vue-tsc": "^3.2.2"
