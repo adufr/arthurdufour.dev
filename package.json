@@ -21,7 +21,7 @@
     "@nuxt/content": "3.14.0",
     "@nuxt/image": "2.0.0",
     "@nuxt/ui": "4.8.2",
-    "@nuxtjs/plausible": "3.0.2",
+    "@nuxtjs/plausible": "4.0.0",
     "@vueuse/nuxt": "14.3.0",
     "better-sqlite3": "12.11.1",
     "motion-v": "2.3.0",
