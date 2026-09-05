@@ -2,7 +2,7 @@
   "name": "arthurdufour.dev",
   "type": "module",
   "private": true,
-  "packageManager": "pnpm@10.30.3",
+  "packageManager": "pnpm@10.34.5",
   "version": "1.0.1",
   "scripts": {
     "build": "nuxt build",
@@ -16,16 +16,16 @@
     "typecheck": "nuxt typecheck"
   },
   "dependencies": {
-    "@iconify-json/lucide": "1.2.112",
-    "@iconify-json/simple-icons": "1.2.86",
-    "@nuxt/content": "3.14.0",
-    "@nuxt/image": "2.0.0",
-    "@nuxt/ui": "4.8.2",
+    "@iconify-json/lucide": "1.2.129",
+    "@iconify-json/simple-icons": "1.2.94",
+    "@nuxt/content": "3.16.0",
+    "@nuxt/image": "2.1.0",
+    "@nuxt/ui": "4.11.0",
     "@nuxtjs/plausible": "3.0.2",
-    "@vueuse/nuxt": "14.3.0",
+    "@vueuse/nuxt": "14.4.0",
     "better-sqlite3": "12.11.1",
-    "motion-v": "2.3.0",
-    "nuxt": "4.4.8"
+    "motion-v": "2.4.2",
+    "nuxt": "4.5.2"
   },
   "devDependencies": {
     "@adufr/eslint-config": "3.0.0",
@@ -33,7 +33,7 @@
     "@nuxt/eslint": "1.16.0",
     "eslint": "9.39.5",
     "typescript": "6.0.3",
-    "vue-tsc": "3.3.5"
+    "vue-tsc": "3.3.11"
   },
   "prettier": "@adufr/prettier-config"
 }
